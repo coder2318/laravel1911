@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Exception;
-use GuzzleHttp\Client; 
+use GuzzleHttp\Client;
 use Illuminate\Http\Request;
 
 class ResourceController extends Controller
@@ -31,7 +31,7 @@ class ResourceController extends Controller
 
         }
         return response()->json([
-            'error' => 'Server  error',
+            'error' => 'Server  error or not found',
             'status_code' => $response->getStatusCode()
         ]);
     }
