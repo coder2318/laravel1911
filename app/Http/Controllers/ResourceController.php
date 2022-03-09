@@ -31,9 +31,7 @@ class ResourceController extends Controller
 
         }
 
-        return response()->json([
-            'error' => 'Server error'
-        ]);
+        return "hello world";
     }
 
     public function getLogin()
