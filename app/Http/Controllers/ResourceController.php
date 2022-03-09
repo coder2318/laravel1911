@@ -31,7 +31,7 @@ class ResourceController extends Controller
 
         }
 
-        return 123;
+        return "hello world";
     }
 
     public function getLogin()
