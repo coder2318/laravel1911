@@ -30,10 +30,8 @@ class ResourceController extends Controller
            return response()->json($result);
 
         }
-        return response()->json([
-            'error' => 'Server  error or not found',
-            'status_code' => $response->getStatusCode()
-        ]);
+
+        return 123;
     }
 
     public function getLogin()
